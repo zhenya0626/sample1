@@ -5,7 +5,7 @@
 		scrollPosi = $(document).scrollTop();
         var w = $(window).width();
 
-        if(w > 1024){
+        // if(w > 1024){
             if(scrollPosi < 50){
                 $('.header-logo-links').css('top', 50-scrollPosi);
 
@@ -26,7 +26,7 @@
         //         $('#header').css('height', 130);
         //     }
         //     $(".pc").css('display','none');
-        }
+        // }
 	});
  
 })(jQuery);
